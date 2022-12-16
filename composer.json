@@ -1,0 +1,20 @@
+{
+    "name": "geekr-dev/php-ecommerce",
+    "require": {
+        "illuminate/database": "10.x-dev",
+        "illuminate/support": "10.x-dev",
+        "ramsey/uuid": "5.x-dev"
+    },
+    "autoload": {
+        "psr-4": {
+            "Ecommerce\\": "src/Ecommerce"
+        }
+    },
+    "authors": [
+        {
+            "name": "geekr",
+            "email": "geekr@hey.com"
+        }
+    ],
+    "minimum-stability": "dev"
+}
