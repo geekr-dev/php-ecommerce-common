@@ -1,8 +1,8 @@
 {
     "name": "geekr-dev/php-ecommerce",
     "require": {
-        "illuminate/database": "10.x-dev",
-        "illuminate/support": "10.x-dev",
+        "illuminate/database": "9.x-dev",
+        "illuminate/support": "9.x-dev",
         "ramsey/uuid": "5.x-dev"
     },
     "autoload": {
