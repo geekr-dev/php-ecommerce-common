@@ -1,8 +1,9 @@
 {
     "name": "geekr-dev/php-ecommerce",
+    "license": "MIT",
     "require": {
-        "illuminate/database": "9.x-dev",
-        "illuminate/support": "9.x-dev",
+        "illuminate/database": "^9.19",
+        "illuminate/support": "^9.19",
         "ramsey/uuid": "5.x-dev"
     },
     "autoload": {
