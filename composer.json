@@ -4,7 +4,7 @@
     "require": {
         "illuminate/database": "^9.19",
         "illuminate/support": "^9.19",
-        "ramsey/uuid": "5.x-dev"
+        "ramsey/uuid": "^4.2"
     },
     "autoload": {
         "psr-4": {
