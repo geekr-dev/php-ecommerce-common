@@ -1,0 +1,12 @@
+<?php
+
+namespace Ecommerce\Common\DTOs\Rating;
+
+class ProductRatingData
+{
+    public function __construct(
+        public readonly string $uuid,
+        public readonly float $score,
+    ) {
+    }
+}
