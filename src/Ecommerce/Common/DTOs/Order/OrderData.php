@@ -9,4 +9,12 @@ class OrderData
         public readonly int $quantity,
     ) {
     }
+
+    public static function fromArray(array $data): self
+    {
+        return new static(
+            $data['productId'],
+            $data['quantity'],
+        );
+    }
 }
