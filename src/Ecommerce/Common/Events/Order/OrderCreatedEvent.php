@@ -6,7 +6,7 @@ use Ecommerce\Common\DTOs\Order\OrderData;
 use Ecommerce\Common\Enums\Events;
 use Ecommerce\Common\Events\Event;
 
-class OrderCreateEvent extends Event
+class OrderCreatedEvent extends Event
 {
     const TYPE = Events::ORDER_CREATED;
 
