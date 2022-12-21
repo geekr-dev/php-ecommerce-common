@@ -7,6 +7,7 @@ class OrderData
     public function __construct(
         public readonly string $productId,
         public readonly int $quantity,
+        public readonly float $totalPrice,
     ) {
     }
 
@@ -15,6 +16,7 @@ class OrderData
         return new static(
             $data['productId'],
             $data['quantity'],
+            $data['totalPrice'],
         );
     }
 }
